@@ -1,0 +1,70 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMULADOR DE MARCAPASOS"
+            android:textColor="#12345A"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema didáctico inteligente"
+            android:textColor="#607080"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido al simulador educativo de marcapasos externo. Explora los modos de estimulación y aprende sobre sus parámetros de funcionamiento."
+            android:textColor="#34495E"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/btnSimulacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar simulación"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnParametros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurar parámetros"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnBiblioteca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biblioteca educativa"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnAcerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca del proyecto"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACERCA DEL PROYECTO"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMULADOR DIDÁCTICO INTELIGENTE DE MARCAPASOS EXTERNO"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCIÓN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta aplicación es una herramienta educativa diseñada para apoyar el aprendizaje sobre el funcionamiento y la configuración de un marcapasos externo temporal. Permite explorar escenarios simulados y consultar información técnica relacionada con la estimulación cardíaca."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBJETIVO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facilitar el aprendizaje de los conceptos básicos de la estimulación cardíaca temporal mediante una interfaz interactiva y escenarios didácticos."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PÚBLICO OBJETIVO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estudiantes de Ingeniería Biomédica y personas en formación interesadas en conocer los principios de funcionamiento de los marcapasos externos."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINALIDAD EDUCATIVA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El simulador tiene fines exclusivamente educativos. No sustituye un dispositivo médico real, la supervisión profesional ni los protocolos clínicos."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnVolverAcerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio"/>
+
+    </LinearLayout>
+</ScrollView>

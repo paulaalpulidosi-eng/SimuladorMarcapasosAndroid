@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIBLIOTECA EDUCATIVA"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿QUÉ ES UN MARCAPASOS EXTERNO?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es un dispositivo médico temporal que administra impulsos eléctricos al corazón mediante electrodos colocados sobre la piel del paciente. Su objetivo es mantener una frecuencia cardíaca adecuada cuando el sistema eléctrico natural del corazón presenta alteraciones."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDICACIONES DE USO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Bradicardia sintomática.\n• Alteraciones de la conducción cardíaca.\n• Bloqueos auriculoventriculares.\n• Situaciones que requieren estimulación cardíaca temporal."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MODOS DE ESTIMULACIÓN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VVI: estimulación y detección ventricular con respuesta inhibida.\n\nAAI: estimulación y detección auricular con respuesta inhibida.\n\nDDD: estimulación y detección en aurícula y ventrículo, con respuesta dual."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PARÁMETROS BÁSICOS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frecuencia: cantidad de impulsos por minuto.\n\nAmplitud: intensidad del impulso eléctrico, expresada en miliamperios (mA).\n\nSensibilidad: capacidad del dispositivo para detectar la actividad eléctrica cardíaca, expresada en milivoltios (mV)."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRECAUCIONES DE SEGURIDAD"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#12345A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• El dispositivo debe ser utilizado por personal de salud capacitado.\n• Verificar la conexión de los electrodos.\n• Vigilar continuamente el ritmo cardíaco y la respuesta del paciente.\n• Seguir los protocolos clínicos y las indicaciones del fabricante."
+            android:textSize="15sp"
+            android:textColor="#34495E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnVolverBiblioteca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio"/>
+
+    </LinearLayout>
+</ScrollView>

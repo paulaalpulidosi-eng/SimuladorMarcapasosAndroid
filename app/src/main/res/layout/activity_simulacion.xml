@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMULACIÓN DE MARCAPASOS"
+            android:textColor="#12345A"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona un escenario para iniciar el aprendizaje."
+            android:textColor="#34495E"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnBradicardia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bradicardia"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/btnAsistolia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asistolia"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio"
+            android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+</ScrollView>
